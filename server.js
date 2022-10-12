@@ -6,9 +6,8 @@ const PORT = process.env.PORT || 3001;
 const app = express();
 
 // constants for the route pages
-const apiRoutes = require('./routes/apiRoutes');
-const htmlRoutes = require('./routes/htmlRoutes');
-
+const apiRoutes = require('./routes/apiRoutes.js');
+const htmlRoutes = require('./routes/htmlRoutes.js');
 
 // allows express to handle data as JSON
 app.use(express.urlencoded({ extended: true }));
