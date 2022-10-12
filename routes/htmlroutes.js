@@ -17,5 +17,5 @@ router.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/index.html'));
   });
 
-// fixed error getting an object
+// part of set up
 module.exports = router;
