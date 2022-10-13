@@ -1,10 +1,11 @@
-// require express at top
-const express = require('express');
-// Port for our server to be on in heroku
-const PORT = process.env.PORT || 3001;
+// create an express app
+const express = require("express")
+const app = express()
 
-// initiates the server/invokes express
-const app = express();
+// use the express-static middleware
+app.use(express.static("public"))
+
+const PORT = process.env.PORT || 3001;
 
 // constants for the route pages
 const apiRoutes = require('./routes/apiRoutes.js');
