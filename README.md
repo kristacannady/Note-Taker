@@ -10,7 +10,7 @@ This interactive application allows you to take notes and add them to storage fo
 * JavaScript
 * Express.js
 ## Website
-Deployed on Heroku: 
+Deployed on Heroku: https://note-taker-krista.herokuapp.com/
 ## Contribution
 Made with ❤️ by Krista Cannady
 
